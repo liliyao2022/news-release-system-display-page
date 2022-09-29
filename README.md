@@ -19,7 +19,7 @@ Install JSON Server
 
 Start JSON Server
 
-###json-server --watch db.json --port8000
+###json-server --watch db.json --port 4000
 Now if you go to http://localhost:3000/login, you'll get the news release system.
 
 The page will reload when you make changes.\
