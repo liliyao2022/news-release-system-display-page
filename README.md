@@ -11,15 +11,17 @@ In the project directory, you can run:
 Runs the  display app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-To view the news release system, you need install a fake Json-server.
+You must install a fake JSON server to view the news release system.
 
 Install JSON Server
 
 ###npm install -g json-server
 
 Start JSON Server
-
+###cd public
+###cd bd
 ###json-server --watch db.json --port 4000
+
 Now if you go to http://localhost:3000/login, you'll get the news release system.
 
 The page will reload when you make changes.\
