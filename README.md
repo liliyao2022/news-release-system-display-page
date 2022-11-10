@@ -18,8 +18,11 @@ Install JSON Server
 ###npm install -g json-server
 
 Start JSON Server
+
 ###cd public
+
 ###cd bd
+
 ###json-server --watch db.json --port 4000
 
 Now if you go to http://localhost:3000/login, you'll get the news release system.
